@@ -5,11 +5,16 @@ public class App {
     public static void main(String[] args) {
 
 
-        Cat cat = new Cat();
+        Cat cat = new Cat();    // Instanziierung
 
         System.out.println(cat);
+        cat.tellYourAddress();
 
-        cat.sayHello(); 
+        System.out.println("-------");
+
+        Cat cat2 = new Cat();
+        System.out.println(cat2);
+        cat2.tellYourAddress();
 
 
     }
