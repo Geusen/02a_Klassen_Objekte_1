@@ -6,7 +6,7 @@ public class App {
 
         // Objekt 1 erzeugen
         Cat cat = new Cat();    // Instanziierung
-        System.out.println(cat);
+        output("Adresse des Objekts: " + cat);
 
         // Wertzuweisung Objekt 1
         cat.name = "Alonzo";
@@ -32,7 +32,7 @@ public class App {
 
         // Objekt 2 erzeugen
         Cat cat2 = new Cat();
-        System.out.println(cat2);
+        output("Adresse des Objekts: " + cat2);
 
 
          /// Wertzuweisung Objekt 2
