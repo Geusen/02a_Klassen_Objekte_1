@@ -4,17 +4,18 @@ public class App {
     
     public static void main(String[] args) {
 
-
+        // Objekt entsteht ...
         Cat cat = new Cat();    // Instanziierung
 
         System.out.println(cat);
         cat.tellYourAddress();
+        cat.tellYourName();
 
-        System.out.println("-------");
+        // System.out.println("-------");
 
-        Cat cat2 = new Cat();
-        System.out.println(cat2);
-        cat2.tellYourAddress();
+        // Cat cat2 = new Cat();
+        // System.out.println(cat2);
+        // cat2.tellYourAddress();
 
 
     }
