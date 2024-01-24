@@ -43,9 +43,9 @@ public class App {
      
  
         // Ausgabe Objekt 2
-         System.out.println(cat2.tellYourName());
-         System.out.println(cat2.tellYourFurColor());
-         System.out.println(cat2.tellYourAge());
+         output(cat2.tellYourName());
+         output(cat2.tellYourFurColor());
+         output(String.valueOf(cat2.tellYourAge()));
 
     }
 
