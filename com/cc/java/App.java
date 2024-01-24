@@ -16,12 +16,19 @@ public class App {
     
 
        // Ausgabe Objekt 1
-        System.out.println(cat.name);
-        System.out.println(cat.furColor);
-        System.out.println(cat.age);
+        // System.out.println(cat.tellYourName());
+        // System.out.println(cat.tellYourFurColor());
+        // System.out.println(cat.tellYourAge());
         
 
-        System.out.println("-------");
+        output("hi");
+        output(cat.tellYourName());
+        output(cat.tellYourFurColor());
+        output(String.valueOf(cat.tellYourAge())); // int ---> String
+
+        
+
+        output("-------");
 
         // Objekt 2 erzeugen
         Cat cat2 = new Cat();
@@ -36,13 +43,17 @@ public class App {
      
  
         // Ausgabe Objekt 2
-         System.out.println(cat2.name);
-         System.out.println(cat2.furColor);
-         System.out.println(cat2.age);
+         System.out.println(cat2.tellYourName());
+         System.out.println(cat2.tellYourFurColor());
+         System.out.println(cat2.tellYourAge());
 
     }
 
-   
+    // Statische Methode ---- in Klasse
+  public static void output(String outputStr) {
+    System.out.println(outputStr);
+  }
+
 
 }
 

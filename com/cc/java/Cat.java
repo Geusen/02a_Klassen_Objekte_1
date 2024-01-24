@@ -6,17 +6,16 @@ public class Cat {
     String furColor;
     int age;
 
-    public void tellYourName(){
-            System.out.println(this.name);
+    public String tellYourName(){
+            return this.name;
     }
 
+    public String tellYourFurColor(){
+        return this.furColor;
+}
 
-
-
-
-
-    public void tellYourAddress(){
-        System.out.println(this);
+    public int tellYourAge(){
+        return this.age;
     }
 
 
