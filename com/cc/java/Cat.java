@@ -7,10 +7,7 @@ public class Cat {
     int age;
 
     public void tellYourName(){
-
             System.out.println(this.name);
-
-
     }
 
 
@@ -19,7 +16,6 @@ public class Cat {
 
 
     public void tellYourAddress(){
-
         System.out.println(this);
     }
 

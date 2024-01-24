@@ -4,19 +4,40 @@ public class App {
     
     public static void main(String[] args) {
 
-        // Objekt entsteht ...
+        // Objekt erzeugen
         Cat cat = new Cat();    // Instanziierung
-
         System.out.println(cat);
-        cat.tellYourAddress();
-        cat.tellYourName();
 
-        // System.out.println("-------");
+        // Wertzuweisung
+        cat.name = "Alonzo";
+        cat.furColor = "grey";
+        cat.age = 35;
 
-        // Cat cat2 = new Cat();
-        // System.out.println(cat2);
-        // cat2.tellYourAddress();
+    
 
+       // Ausgabe 
+        System.out.println(cat.name);
+        System.out.println(cat.furColor);
+        System.out.println(cat.age);
+        
+
+        System.out.println("-------");
+
+        Cat cat2 = new Cat();
+        System.out.println(cat2);
+        
+
+         // Wertzuweisung
+         cat2.name = "Grizabella";
+         cat2.furColor = "white";
+         cat2.age = 29;
+ 
+     
+ 
+        // Ausgabe 
+         System.out.println(cat2.name);
+         System.out.println(cat2.furColor);
+         System.out.println(cat2.age);
 
     }
 
