@@ -5,14 +5,14 @@ public class App {
     public static void main(String[] args) {
 
         // Objekt 1 erzeugen
-        Cat cat = new Cat();    // Instanziierung
+        Cat cat = new Cat("Alonzo", "grey", 35);    // Instanziierung
         output("Adresse des Objekts: " + cat);
 
         // Wertzuweisung Objekt 1
-        cat.name = "Alonzo";
-        cat.furColor = "grey";
-        cat.age = 35;
-
+        // cat.name = "Alonzo";
+        // cat.furColor = "grey";
+        // cat.age = 35;
+      
     
 
        // Ausgabe Objekt 1
@@ -21,7 +21,6 @@ public class App {
         // System.out.println(cat.tellYourAge());
         
 
-        output("hi");
         output(cat.tellYourName());
         output(cat.tellYourFurColor());
         output(String.valueOf(cat.tellYourAge())); // int ---> String
@@ -31,14 +30,14 @@ public class App {
         output("-------");
 
         // Objekt 2 erzeugen
-        Cat cat2 = new Cat();
+        Cat cat2 = new Cat("Grizabella", "white", 29);
         output("Adresse des Objekts: " + cat2);
 
 
          /// Wertzuweisung Objekt 2
-         cat2.name = "Grizabella";
-         cat2.furColor = "white";
-         cat2.age = 29;
+        //  cat2.name = "Grizabella";
+        //  cat2.furColor = "white";
+        //  cat2.age = 29;
  
      
  
