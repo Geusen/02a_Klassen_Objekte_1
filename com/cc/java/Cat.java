@@ -2,9 +2,9 @@ package com.cc.java;
 
 public class Cat {
 
-    String name;
-    String furColor;
-    int age;
+    private String name;
+    private String furColor;
+    private int age;
 
     
 
@@ -24,6 +24,32 @@ public class Cat {
 
     public int tellYourAge(){
         return this.age;
+    }
+
+
+    // Getter und Setter für die Eigenschaften name, furColor, age
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getFurColor() {
+        return furColor;
+    }
+
+    public void setFurColor(String furColor) {
+        this.furColor = furColor;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
 
