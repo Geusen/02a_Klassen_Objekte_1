@@ -29,7 +29,11 @@ public class Cat {
 
     // Getter und Setter für die Eigenschaften name, furColor, age
     public String getName() {
-        return name;
+       if (getPermission()) {
+            return name;
+        } else {
+            return "Sorry, no permission!";
+        }
     }
 
     public void setName(String name) {
@@ -52,5 +56,8 @@ public class Cat {
         this.age = age;
     }
 
+    private boolean getPermission(){
+        return false;
+    }
 
 }
