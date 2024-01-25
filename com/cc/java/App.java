@@ -4,7 +4,7 @@ public class App {
     
     public static void main(String[] args) {
 
-        // Objekt 1 erzeugen
+        // Objekt 1 erzeugen + Wertezuweisung
         Cat cat = new Cat("Alonzo", "grey", 35);    // Instanziierung
         output("Adresse des Objekts: " + cat);
 
@@ -21,20 +21,21 @@ public class App {
         // System.out.println(cat.tellYourAge());
         
 
-        output(cat.tellYourName());
-        output(cat.tellYourFurColor());
-        output(String.valueOf(cat.tellYourAge())); // int ---> String
+        output(cat.getName());
+        output(cat.getFurColor());
+        output(String.valueOf(cat.getAge())); // int ---> String
 
-        
+        // output(cat.name);
 
         output("-------");
 
-        // Objekt 2 erzeugen
+        // Objekt 2 erzeugen + Wertzuweisung
         Cat cat2 = new Cat("Grizabella", "white", 29);
-        output("Adresse des Objekts: " + cat2);
+        
+        // cat2.furColor = "grey";
 
 
-         /// Wertzuweisung Objekt 2
+        // Wertzuweisung Objekt 2
         //  cat2.name = "Grizabella";
         //  cat2.furColor = "white";
         //  cat2.age = 29;
@@ -42,9 +43,9 @@ public class App {
      
  
         // Ausgabe Objekt 2
-         output(cat2.tellYourName());
-         output(cat2.tellYourFurColor());
-         output(String.valueOf(cat2.tellYourAge()));
+         output(cat2.getName());
+         output(cat2.getFurColor());
+         output(String.valueOf(cat2.getAge()));
 
     }
 
